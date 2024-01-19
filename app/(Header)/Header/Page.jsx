@@ -165,18 +165,18 @@ function HeaderPage() {
       </AnimatePresence>
 
       <nav className="flex justify-between items-center w-full  px-4 pt-10 max-w-6xl mx-auto">
-        <div className="flex gap-x-3 items-center">
+        <div className="flex gap-x-3 items-center ">
           <Image
-            width={200}
-            height={200}
-            className="w-10 h-10 rounded-full object-cover"
-            src="/jo3.jpeg"
+            width={300}
+            height={300}
+            className=" w-10 h-10 hover:w-20 hover:h-20  rounded-full object-cover"
+            src="/portrait.jpg"
             alt=""
           />
 
           <div>
-            <h4 className="text-xs ">Ahmed Boulakhras</h4>
-            <p className="text-[#828282] text-xs">Software Developer</p>
+            <h4 className="text-sm ">Ahmed Boulakhras</h4>
+            <p className="text-[#828282] text-sm">Software Developer</p>
           </div>
         </div>
 

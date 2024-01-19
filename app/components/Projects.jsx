@@ -10,7 +10,7 @@ export default function Projects() {
     </div>
 
     <div className="mt-8 px-2">
-      <div className="bg-[#F5F5F5]  dark:bg-[#1B1B1B] rounded-md px-1  relative">
+      <div className="hover:bg-[#eeeeee] hover:cursor-pointer  dark:hover:bg-[#2a2a2a] rounded-md px-1  relative">
         <div className="flex justify-between items-center p-2  gap-x-2 mt-14">
           <Image
             width={200}
@@ -32,7 +32,7 @@ export default function Projects() {
           </ul>
         </div>
       </div>
-      <div className="bg-[#F5F5F5]  dark:bg-[#1B1B1B] rounded-md px-1  relative">
+      <div className="hover:bg-[#eeeeee] hover:cursor-pointer dark:hover:bg-[#2a2a2a] rounded-md px-1  relative">
         <div className="flex justify-between items-center p-2  gap-x-2 mt-4">
           <Image
             width={300}
@@ -54,7 +54,7 @@ export default function Projects() {
           </ul>
         </div>
       </div>
-      <div className="bg-[#F5F5F5]  dark:bg-[#1B1B1B] rounded-md px-1  relative">
+      <div className="hover:bg-[#eeeeee]  dark:hover:bg-[#2a2a2a] hover:cursor-pointer rounded-md px-1  relative">
         <div className="flex justify-between items-center p-2  gap-x-2 mt-4">
           <Image
             width={300}
