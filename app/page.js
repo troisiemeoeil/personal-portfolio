@@ -1,24 +1,7 @@
 "use client";
 import { useState } from "react";
-import { motion } from "framer-motion";
-import {
-  PiArrowUpRight,
-  PiLinkedinLogoThin,
-  PiBehanceLogoThin,
-  PiArrowDownThin,
-  PiGithubLogoThin,
-} from "react-icons/pi";
-
-import { IoIosMailUnread } from "react-icons/io";
-
-import { RiTwitterXLine } from "react-icons/ri";
-
 import { useTheme } from "next-themes";
 
-import { Tooltip } from "@nextui-org/react";
-
-import Link from "next/link";
-import Image from "next/image";
 import Map from "./components/Map";
 import Availability from "./components/Availability";
 import About from "./components/About";
@@ -50,7 +33,7 @@ function Homepage() {
         <Contact />
         <LatestWork />
         <SideProjects />
-        <Newsletter />
+        {/* <Newsletter /> */}
         <Quote />
         <ExperienceYears />
       </div>

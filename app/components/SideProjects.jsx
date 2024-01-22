@@ -50,6 +50,53 @@ export default function SideProjects() {
         </div>
       </div>
 
+      
+      <div className="px-2 my-3 ">
+        <div className="w-full h-[0.9px] dark:bg-neutral-800  bg-neutral-400/40 " />
+      </div>
+
+      <div className="flex  gap-x-3  px-2 relative ">
+        <p className="dark:text-white  text-xs w-20 shrink-0  ">
+          Since 2018
+        </p>
+        <div>
+          <h4 className="text-xs font-bold">ADC Club Global</h4>
+          <p className="text-[11px] text-neutral-500">Jury Member</p>
+        </div>
+      </div>
+
+      
+      <div className="px-2 my-3 ">
+        <div className="w-full h-[0.9px] dark:bg-neutral-800  bg-neutral-400/40 " />
+      </div>
+
+      <div className="flex  gap-x-3  px-2 relative ">
+        <p className="dark:text-white  text-xs w-20 shrink-0  ">
+          Since 2018
+        </p>
+        <div>
+          <h4 className="text-xs font-bold">ADC Club Global</h4>
+          <p className="text-[11px] text-neutral-500">Jury Member</p>
+        </div>
+      </div>
+
+      
+      <div className="px-2 my-3 ">
+        <div className="w-full h-[0.9px] dark:bg-neutral-800  bg-neutral-400/40 " />
+      </div>
+
+      <div className="flex  gap-x-3  px-2 relative ">
+        <p className="dark:text-white  text-xs w-20 shrink-0  ">
+          Since 2018
+        </p>
+        <div>
+          <h4 className="text-xs font-bold">ADC Club Global</h4>
+          <p className="text-[11px] text-neutral-500">Jury Member</p>
+        </div>
+      </div>
+
+      
+
       <div className="px-2 my-3 ">
         <div className="w-full h-[0.9px] dark:bg-neutral-800  bg-neutral-400/40 " />
       </div>
