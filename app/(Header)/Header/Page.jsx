@@ -237,7 +237,7 @@ function HeaderPage() {
           </div>
         </div>
 
-        <div>
+        <div className=" border-0 ">
           <Drawer>
       <DrawerTrigger asChild>
         <Button variant="custom">Let's Talk
