@@ -37,7 +37,7 @@ export default function ExperienceYears() {
       <div className="mt-16 w-full">
         <Dialog>
       <DialogTrigger asChild>
-     <Button variant="custom">Let's Talk
+     <Button variant="custom">View
      <PiArrowUpRight />
 
         </Button>
