@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
 
-export default function LatestWork() {
+export default function LatestWork({id}) {
   return (
-    <div className="dark:bg-[#1E1E1E] bg-white border dark:border-neutral-600 border-neutral-400/60 overflow-hidden relative shadow-xl rounded-lg min-h-[50px] col-span-2 row-span-3 md:row-span-2 ">
+    <div id={id} className="dark:bg-[#1E1E1E] bg-white border dark:border-neutral-600 border-neutral-400/60 overflow-hidden relative shadow-xl rounded-lg min-h-[50px] col-span-2 row-span-3 md:row-span-2 ">
     <div className=" absolute w-full p-2 z-10">
       <div className="flex justify-between items-center ">
         <p className="text-xs">Latest Work</p>

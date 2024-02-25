@@ -4,10 +4,14 @@ import React from 'react'
 import { IoIosMailUnread } from 'react-icons/io'
 import { PiBehanceLogoThin, PiGithubLogoThin } from 'react-icons/pi'
 import { RiTwitterXLine } from 'react-icons/ri'
-
-export default function Contact() {
+import { motion } from "framer-motion";
+export default function Contact({id}) {
   return (
-    <div className="dark:bg-[#1E1E1E] bg-white border dark:border-neutral-600 border-neutral-400/60 shadow-xl rounded-lg min-h-[50px] col-span-2  relative">
+    <motion.div
+    drag
+    dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }}
+    dragElastic={1}
+    id={id} className="dark:bg-[#1E1E1E] bg-white border dark:border-neutral-600 border-neutral-400/60 shadow-xl rounded-lg min-h-[50px] col-span-2  relative">
     <div className=" absolute w-full p-2 z-20">
       <p className="text-xs">Get in touch</p>
       <div className="w-full h-[0.9px] dark:bg-neutral-600 bg-neutral-400/60 mt-1 top-7  " />
@@ -49,6 +53,6 @@ export default function Contact() {
         </Tooltip>
       </div>
     </div>
-  </div>
+  </motion.div>
   )
 }

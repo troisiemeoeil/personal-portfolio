@@ -1,9 +1,13 @@
 
 import {PiArrowUpRight} from "react-icons/pi";
-
-export default function Availability() {
+import { motion } from "framer-motion";
+export default function Availability({id}) {
   return (
-    <div className="dark:bg-[#1E1E1E] bg-white border dark:border-neutral-600 border-neutral-400/60 shadow-xl relative rounded-lg sm:h-40  ">
+    <motion.div
+    drag
+    dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }}
+    dragElastic={1}
+    id={id} className="dark:bg-[#1E1E1E] bg-white border dark:border-neutral-600 border-neutral-400/60 shadow-xl relative rounded-lg sm:h-40  ">
     <div className=" absolute w-full p-2">
       <div className="flex justify-between items-center ">
         <p className="text-xs">Mode</p>
@@ -33,6 +37,6 @@ export default function Availability() {
         </button>
       </div>
     </div>
-  </div>
+  </motion.div>
   )
 }

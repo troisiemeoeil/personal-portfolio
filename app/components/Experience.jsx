@@ -1,7 +1,12 @@
-
-export default function Experience() {
+import { motion } from "framer-motion";
+export default function Experience({id}) {
+  
   return (
-    <div className="dark:bg-[#1E1E1E] bg-white border dark:border-neutral-600 border-neutral-400/60 shadow-xl rounded-lg col-span-2 row-span-2 relative  overflow-hidden  ">
+    <motion.div
+    drag
+    dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }}
+    dragElastic={1}
+    id={id} className="dark:bg-[#1E1E1E] z-100 bg-white border dark:border-neutral-600 border-neutral-400/60 shadow-xl rounded-lg col-span-2 row-span-2 relative  overflow-hidden  ">
     <div className=" absolute w-full p-2 z-20">
       <p className="text-xs">Experience & Education</p>
       <div className="w-full h-[0.9px] dark:bg-neutral-600 bg-neutral-400/60 mt-1 top-7  " />
@@ -149,6 +154,6 @@ export default function Experience() {
     {/* Gradient  */}
     <div className=" bg-gradient-to-t  w-full absolute z-10 from-white via-white dark:from-[#1E1E1E] dark:via-[#1E1E1E] to-transparent bottom-0   h-12 transition-all ease-in duration-200" />
     {/* gradient ends */}
-  </div>
+  </motion.div>
   )
 }

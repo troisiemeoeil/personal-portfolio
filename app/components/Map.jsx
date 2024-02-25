@@ -1,9 +1,10 @@
 
 import { motion } from "framer-motion";
 
-export default function Map({theme}) {
+export default function Map({theme, id}) {
   return (
     <motion.div
+    id={id}
     drag
     dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }}
     dragElastic={1}

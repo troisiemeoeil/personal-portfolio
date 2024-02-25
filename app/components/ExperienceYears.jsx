@@ -10,9 +10,9 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog"
-export default function ExperienceYears() {
+export default function ExperienceYears({id}) {
   return (
-    <div className="  rounded-lg  grid grid-cols-2 gap-2 col-span-2 row-span-2 z-40">
+    <div id={id} className="  rounded-lg  grid grid-cols-2 gap-2 col-span-2 row-span-2 z-40">
     <motion.div
       drag
       dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }}
